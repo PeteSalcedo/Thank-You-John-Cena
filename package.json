@@ -1,0 +1,32 @@
+{
+  "name": "thank-you-john-cena",
+  "version": "1.0.0",
+  "description": "A simple react app as a tribute to Mr. Hustle,Loyalty and Respect",
+  "main": "index.js",
+  "dependencies": {
+    "react": "^16.7.0",
+    "react-dom": "^16.7.0",
+    "react-scripts": "2.1.1"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PeteSalcedo/Thank-You-John-Cena.git"
+  },
+  "keywords": [
+    "React",
+    "John",
+    "Cena"
+  ],
+  "author": "Pete Salcedo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/PeteSalcedo/Thank-You-John-Cena/issues"
+  },
+  "homepage": "https://github.com/PeteSalcedo/Thank-You-John-Cena#readme"
+}
