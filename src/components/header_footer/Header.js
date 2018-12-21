@@ -1,7 +1,7 @@
 import React,  { Component } from 'react';
 
 import AppBar from '@material-ui/core/AppBar';
-import ToolBar from '@material-ui/core/Toolbar';
+import Toolbar from '@material-ui/core/Toolbar';
 import Menu from '@material-ui/core/Menu';
 import IconButton from '@material-ui/core/IconButton';
 
@@ -14,7 +14,12 @@ class Header extends Component {
                boxShadow:'none',
                padding:'10px 0px'
            }}>
-               Header
+               <Toolbar>
+                   <div className="header_logo">
+                   <div className="font_righteous header_logo_venue">Mr. Hustle,Loyalty & Respect</div>
+                   <div className="header_logo_title">John Cena</div>
+                   </div>
+               </Toolbar>
            </AppBar>
         )
     }
