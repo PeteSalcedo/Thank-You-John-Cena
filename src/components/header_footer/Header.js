@@ -13,8 +13,7 @@ class Header extends Component {
                backgroundColor:'·2f2f2f',
                boxShadow:'none',
                padding:'10px 0px'
-           }}
-           >
+           }}>
                Header
            </AppBar>
         )
