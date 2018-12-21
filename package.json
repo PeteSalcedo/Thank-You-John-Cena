@@ -4,6 +4,7 @@
   "description": "A simple react app as a tribute to Mr. Hustle,Loyalty and Respect",
   "main": "index.js",
   "dependencies": {
+    "@material-ui/core": "^3.7.0",
     "react": "^16.7.0",
     "react-dom": "^16.7.0",
     "react-scripts": "2.1.1"
