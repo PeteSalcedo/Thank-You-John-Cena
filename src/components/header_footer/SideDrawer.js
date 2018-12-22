@@ -6,8 +6,8 @@ const SideDrawer = (props) => {
     return (
         <Drawer
         anchor="right"
-        open={}
-        onClose={()=> }
+        open={this.state.drawerOpen}
+        onClose={(value)=> this.toggleDrawer(value)}
         >
         Drawer
         </Drawer>
