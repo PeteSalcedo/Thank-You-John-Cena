@@ -10,7 +10,8 @@ import SideDrawer from './SideDrawer'
 class Header extends Component {
 
       state={
-          drawerOpen:false
+          drawerOpen:false,
+          headerShow:false
       }
 
       toggleDrawer = (value) => {
