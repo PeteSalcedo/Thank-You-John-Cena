@@ -6,12 +6,12 @@ const SideDrawer = (props) => {
     return (
         <Drawer
         anchor="right"
-        open={this.state.drawerOpen}
-        onClose={(value)=> this.toggleDrawer(value)}
+        open={props.open}
+        onClose={()=>props.onClose(false)}
         >
         Drawer
         </Drawer>
     )
 }
 
-export default SideDrawer
+export default SideDrawer;
