@@ -15,6 +15,17 @@ const SideDrawer = (props) => {
         <ListItem button onCLick={() => console.log('featured')}>
             Upcoming events 
         </ListItem>
+        <ListItem button onCLick={() => console.log('Venue Info')}>
+            Events Information
+        </ListItem>
+
+        <ListItem button onCLick={() => console.log('Highlights')}>
+            Highlight
+        </ListItem>
+
+        <ListItem button onCLick={() => console.log('Prices')}>
+            Prices
+        </ListItem>
         </List>
         </Drawer>
     )
