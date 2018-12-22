@@ -1,6 +1,8 @@
 import React from 'react';
 
 import Drawer from '@material-ui/core/Drawer';
+import List from '@material-ui/core/List';
+import ListItem from '@material-ui/core/ListItem';
 
 const SideDrawer = (props) => {
     return (
@@ -9,7 +11,11 @@ const SideDrawer = (props) => {
         open={props.open}
         onClose={()=>props.onClose(false)}
         >
-        Drawer
+        <List component= "nav">
+        <ListItem button onCLick={() => console.log('featured')}>
+            Upcoming events 
+        </ListItem>
+        </List>
         </Drawer>
     )
 }
