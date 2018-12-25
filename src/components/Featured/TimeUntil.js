@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import Slide from 'react-reveal/Slide'
 
 class TimeUntil extends Component {
     state = {
@@ -7,6 +8,7 @@ class TimeUntil extends Component {
 
     render(){
         return(
+       <Slide left delay={1000}>
         <div className="countdown_wrapper">
          <div className="countdown_top">
          Event starts IN
@@ -44,12 +46,9 @@ class TimeUntil extends Component {
                 secs
             </div>
             </div>
-            
-            
-            
-            
          </div>
         </div>
+        </Slide>
         )
     }
 }
