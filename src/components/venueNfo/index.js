@@ -20,12 +20,12 @@ const VunueNfo = () => {
                                         style={{
                                             background:`url(${icon_calendar})`
                                         }}
-                                    ></div>
+                                     ></div>
                                     <div className="vn_title">
                                         Event Date & Time
                                     </div>
                                     <div className="vn_desc">
-                                        7 August 2017 @10.00 pm
+                                        10 February 2019 @10.00 pm
                                     </div>
                                 </div>
                             </div>
