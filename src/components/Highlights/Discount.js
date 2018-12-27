@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Fade from 'react-reveal/Fade';
 import Slide from 'react-reveal/Slide';
 
-import MyButton from '../utils/MyButton';
+// import MyButton from '../utils/MyButton';
 
 class Discount extends Component {
 
