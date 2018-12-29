@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import './resources/styles.css';
+import './resources/style.css';
 import { Element } from 'react-scroll';
 
 
 import Header from './components/header_footer/Header';
-import Featured from './components/featured';
+import Featured from './components/Featured';
 import VunueNfo from './components/venueNfo';
 import Highlight from './components/Highlights';
 import Pricing from './components/pricing';
