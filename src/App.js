@@ -8,6 +8,8 @@ import Featured from './components/Featured';
 import VunueNfo from './components/venueNfo';
 import Highlight from './components/Highlights';
 import Pricing from './components/pricing';
+import Location from './components/location';
+import Footer from './components/header_footer/Footer';
 
 class App extends Component {
   render() {
@@ -30,6 +32,12 @@ class App extends Component {
         <Element name="pricing">
           <Pricing/>
         </Element>
+
+        <Element name="location">
+          <Location/>
+        </Element>
+        
+        <Footer/>
       </div>
     );
   }
