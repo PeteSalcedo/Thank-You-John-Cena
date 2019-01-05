@@ -48,7 +48,7 @@ const VunueNfo = () => {
                                         Event Location
                                     </div>
                                     <div className="vn_desc">
-                                        345 Speer Street Oakland, CA 9835
+                                    Av.Granjas 800, Santa Barbara, 02230, CDMX
                                     </div>
                                 </div>
                             </div>

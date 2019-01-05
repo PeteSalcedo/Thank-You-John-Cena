@@ -1,9 +1,9 @@
 import React from 'react';
 import Slider from 'react-slick'
 
-import image_1 from '../../resources/images/image_1.jpeg'
+import image_1 from '../../resources/images/image_1.jpg'
 import image_2 from '../../resources/images/image_2.jpg'
-import image4 from '../../resources/images/image4.jpg'
+import image4 from '../../resources/images/image4.png'
 
 const Carrousel = () => {
 
